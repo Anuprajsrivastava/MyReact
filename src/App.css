@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+ font-family: 'Pangolin', cursive;
+font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px ;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: black;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: red;
+    height: 32px;
+    color:white;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    margin: 50px auto;
+    max-width: 1280px;
+    align-items: center;
+    height: calc(100vh-212px);
+}
+.container h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+.container p{
+    font-weight: 600;
+    color: aqua;
+}
+.container-btn{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+.container-img{
+    margin: auto auto;
+}
